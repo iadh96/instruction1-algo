@@ -1,0 +1,21 @@
+ALGORITHM instru_1
+VAR
+    num1,num2,num3: INTEGER;
+    ch:CHAR;
+BEGIN
+WHILE (ch<>",") DO
+IF (ch<>" "){
+    num1++;
+    
+    ELSE_IF (ch="a" OR ch="e" OR ch="k" OR ch="i" OR ch=""){
+        num2++;
+    }
+    
+    ELSE
+        num3++;
+    END_IF
+}
+END_WHILE
+
+
+END
